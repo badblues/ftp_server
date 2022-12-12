@@ -7,7 +7,7 @@
     <version>1.0-SNAPSHOT</version>
   </parent>
 
-  <groupId>badblues.server</groupId>
+  <groupId>badblues.client</groupId>
   <artifactId>client</artifactId>
   <version>1.0-SNAPSHOT</version>
 

@@ -1,4 +1,4 @@
-package badblues.server;
+package badblues.client;
 
 /**
  * Hello world!
