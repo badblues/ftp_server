@@ -1,4 +1,4 @@
-package badblues.server;
+package badblues.pop3;
 
 /**
  * Hello world!

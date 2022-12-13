@@ -7,11 +7,11 @@
     <version>1.0-SNAPSHOT</version>
   </parent>
 
-  <groupId>badblues.client</groupId>
-  <artifactId>client</artifactId>
+  <groupId>badblues.pop3</groupId>
+  <artifactId>pop3</artifactId>
   <version>1.0-SNAPSHOT</version>
 
-  <name>client</name>
+  <name>pop3</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
@@ -27,6 +27,18 @@
       <artifactId>junit</artifactId>
       <version>4.11</version>
       <scope>test</scope>
+    </dependency>
+    <!-- https://search.maven.org/remotecontent?filepath=javax/mail/javax.mail-api/1.5.6/javax.mail-api-1.5.6.jar -->
+    <dependency>
+        <groupId>javax.mail</groupId>
+        <artifactId>javax.mail-api</artifactId>
+        <version>1.5.6</version>
+    </dependency>
+    <!-- https://search.maven.org/remotecontent?filepath=javax/mail/mail/1.4.7/mail-1.4.7.jar -->
+    <dependency>
+        <groupId>javax.mail</groupId>
+        <artifactId>mail</artifactId>
+        <version>1.4.7</version>
     </dependency>
   </dependencies>
 

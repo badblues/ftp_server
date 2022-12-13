@@ -1,4 +1,4 @@
-package badblues.server;
+package badblues.pop3;
 
 import static org.junit.Assert.assertTrue;
 

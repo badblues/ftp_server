@@ -1,4 +1,4 @@
-package badblues.server;
+package badblues.smtp;
 
 import static org.junit.Assert.assertTrue;
 

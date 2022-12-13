@@ -1,4 +1,4 @@
-package badblues.client;
+package badblues.smtp;
 
 /**
  * Hello world!
