@@ -10,8 +10,8 @@ public class SMTP {
 		
 	    System.out.println("SimpleEmail Start");
 		
-	    String smtpHostServer = "smtp.example.com";
-	    String emailID = "email_me@example.com";
+	    String smtpHostServer = "smtp.yandex.ru";
+	    String emailID = "vshabunin25@yandex.ru";
 	    
 	    Properties props = System.getProperties();
 

@@ -29,15 +29,21 @@
       <scope>test</scope>
     </dependency>
     <dependency>
-        <groupId>javax.mail</groupId>
+        <groupId>com.sun.mail</groupId>
         <artifactId>javax.mail</artifactId>
-        <version>1.4.4</version>
+        <version>1.4.5</version>
     </dependency>
     <!-- https://mvnrepository.com/artifact/javax.activation/activation -->
     <dependency>
         <groupId>javax.activation</groupId>
         <artifactId>activation</artifactId>
         <version>1.1.1</version>
+    </dependency>
+    <dependency>
+      <groupId>javax.mail</groupId>
+      <artifactId>javax.mail-api</artifactId>
+      <version>1.5.6</version>
+      <scope>compile</scope>
     </dependency>
 
   </dependencies>
