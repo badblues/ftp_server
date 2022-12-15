@@ -38,6 +38,7 @@ public class EmailUtil {
 			e.printStackTrace();
 		} finally {
 			transport.close();
+			System.out.println("Message was successfully sent");
 		}
 	}
 

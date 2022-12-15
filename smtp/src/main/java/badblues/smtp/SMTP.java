@@ -29,12 +29,23 @@ public class SMTP {
 		};
 
 
-		MyMessage message = new MyMessage("My First message", "Hello from Africa");
+		MyMessage message = new MyMessage("TEST", "test message");
 		try {
+			SMTP.printInfo(fromEmail,toEmail,message);
 			EmailUtil.send(props,fromEmail,toEmail,message, auth);
-			EmailUtil.sendImageEmail(props,fromEmail,toEmail,message, auth);
+			//EmailUtil.sendImageEmail(props,fromEmail,toEmail,message, auth);
+
 		} catch (MessagingException e) {
 			throw new RuntimeException(e);
 		}
+	}
+
+	public  static void printInfo(String from, String to, MyMessage message) {
+		System.out.println("\\---------------------------------------\\");
+		System.out.println("\\\tMessage from: " + from);
+		System.out.println("\\\tMessage to: " + to);
+		System.out.println("\\\tSubject: " + message.subject);
+		System.out.println("\\\tContent: " + message.content);
+		System.out.println("\\----------------------------------------\\");
 	}
 }
