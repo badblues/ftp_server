@@ -10,7 +10,7 @@ public class Pop3 {
 
     public static void main(String[] args) throws Exception {
         // 1. Setup properties for the mail session.
-       // PASSWORD = args[0];
+        // PASSWORD = args[0];
         Properties props = new Properties();
         props.put("mail.pop3.socketFactory.class", "javax.net.ssl.SSLSocketFactory");
         props.put("mail.pop3.socketFactory.fallback", "false");
